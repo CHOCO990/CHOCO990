@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="WU Xin — AI × Business Analytics">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#111B25" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glowA" cx="88%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="6%" cy="96%" r="50%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#1D4ED8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#2DD4BF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E9F1F7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#9FB3C4" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="#080B10"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#glowA)"/>
+  <rect width="1200" height="300" fill="url(#glowB)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#2DD4BF" stroke-width="1.6" fill="none" opacity="0.85">
+    <path d="M26 66V26h40"/>
+    <path d="M1174 66V26h-40"/>
+    <path d="M26 234v40h40"/>
+    <path d="M1174 234v40h-40"/>
+  </g>
+
+  <!-- crosshair marks -->
+  <g stroke="#20303E" stroke-width="1">
+    <path d="M600 20v14M600 266v14"/>
+    <path d="M594 27h12"/>
+  </g>
+
+  <!-- left: name block -->
+  <text x="64" y="60" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="4" fill="#3E5A6E">// PROFILE / 001</text>
+
+  <text x="62" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Helvetica Neue',sans-serif"
+        font-size="64" font-weight="700" letter-spacing="7" fill="url(#fade)">WU XIN</text>
+
+  <text x="64" y="172" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+        font-size="15" letter-spacing="3" fill="#2DD4BF"># CHOCO990</text>
+
+  <rect x="64" y="190" width="360" height="1" fill="url(#rule)"/>
+
+  <text x="64" y="216" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+        font-size="12.5" letter-spacing="4.2" fill="#7C8FA3">AI × BUSINESS ANALYTICS</text>
+
+  <!-- vertical divider -->
+  <path d="M700 78V232" stroke="#1A2632" stroke-width="1"/>
+  <path d="M700 120V138" stroke="#2DD4BF" stroke-width="1" opacity="0.7"/>
+  <path d="M700 176V194" stroke="#2DD4BF" stroke-width="1" opacity="0.7"/>
+
+  <!-- right: spec block -->
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <g font-size="10.5" letter-spacing="2.6" fill="#41566B">
+      <text x="748" y="100">ORG</text>
+      <text x="748" y="134">CLASS</text>
+      <text x="748" y="168">FOCUS</text>
+      <text x="748" y="202">STACK</text>
+    </g>
+    <g font-size="13.5" letter-spacing="0.6" fill="#C4D0DB">
+      <text x="826" y="100">BNBU · Business Analytics</text>
+      <text x="826" y="134">2027</text>
+      <text x="826" y="168">AI Systems / Business Analytics</text>
+      <text x="826" y="202">Python · R · C · FastAPI · Docker</text>
+    </g>
+  </g>
+
+  <!-- status -->
+  <circle cx="70" cy="253" r="3.6" fill="#2DD4BF"/>
+  <circle cx="70" cy="253" r="7" fill="none" stroke="#2DD4BF" stroke-width="1" opacity="0.35"/>
+  <text x="86" y="257" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+        font-size="10.5" letter-spacing="2.4" fill="#5E7285">AVAILABLE FOR 2027 GRADUATE ROLES</text>
+
+  <!-- right bottom readout -->
+  <text x="1174" y="257" text-anchor="end" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+        font-size="10.5" letter-spacing="2.4" fill="#33475A">SYS · NOMINAL</text>
+
+  <!-- bottom ruler -->
+  <g stroke="#16222D" stroke-width="1">
+    <path d="M0 290h1200"/>
+    <path d="M120 290v6M240 290v4M360 290v6M480 290v4M600 290v6M720 290v4M840 290v6M960 290v4M1080 290v6"/>
+  </g>
+</svg>
